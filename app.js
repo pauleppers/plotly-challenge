@@ -4,7 +4,7 @@ var metadata = [];
 var samples = []
 
 // pull in the JSON data file, load data into variables, 
-d3.json("../../../samples.json").then((data) => {
+d3.json("samples.json").then((data) => {
     // load data variable, used globally
     names = data.names;
     metadata = data.metadata;
